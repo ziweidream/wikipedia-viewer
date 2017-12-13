@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <title>A Wikipedia Viewer</title>
+</head>
+
+<body>
+  <div>
+    <div class="text-center" id="random"><a style="color: black;" href="https://en.wikipedia.org/wiki/Special:Random" type="button" class="btn btn-link"><h3>Click here for a random article</h3></a></div>
+
+    <div class="container text-center">
+      <input class="input-lg" type="search" id="search" value="Your own search">
+      <i id="mySearch" class="fa fa-search fa-3x" aria-hidden="true"></i>
+    </div>
+    <br>
+
+    <div id="result">
+      <div class="col-sm-4"></div>
+      <div class="col-sm-7" id="displayResult">
+        <ul></ul>
+      </div>
+    </div>
+    <div class="col-sm-1"></div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,15 @@
+body {
+  background-image: url("http://res.cloudinary.com/dbsgnowkn/image/upload/v1508873026/butterfly1_c1afju.jpg");
+  background-repeat: no-repeat;
+  background: cover;
+  font-family: "Trebuchet MS", Arial;
+}
+
+#random {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+input {
+  width: 34%;
+}
